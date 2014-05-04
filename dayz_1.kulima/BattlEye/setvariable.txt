@@ -1,0 +1,19 @@
+//new
+5 "USEC_isover" !="USEC_BloodQty" !="USEC_infected" !="USEC_injured" !="USEC_inPain" !="USEC_isCardiac" !="USEC_isDead" !="USEC_lowBlood"
+5 "NORRN_" !="NORRN_LoadVcl" !="NORRN_unconscious" !="NORRN_unit_dragged"
+
+/////////////////////////// Illegal chars:
+5 "\+"
+5 ";"
+5 ","
+5 "\{"
+5 "\("
+5 "\["
+5 "\|"
+5 "&"
+5 "="
+5 ":"
+5 "!"
+5 "%"
+5 "\""
+5 "'"
