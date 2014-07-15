@@ -1,0 +1,28 @@
+respawn = "BASE";
+respawndelay = 5;
+onLoadMission= "DayZ Battle Royale";
+OnLoadIntro = "One Dead. 41 To Go.";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+disabledAI = 1;
+disableChannels[] = {0,1,2,3,6};
+enableItemsDropping = 0;
+onPauseScript = "";
+briefing = 0;
+debriefing = 0;
+ShowGPS = 1;
+
+loadScreen = "\z\addons\br_assets\screen\dayz_logo_ca.paa";
+
+class Header
+{
+	gameType = DM;			//DM, Team, Coop, ...
+	minPlayers = 1;				//Min # of players the mission supports
+	maxPlayers = 43;			//Max # of players the mission supports
+};
+
+aiKills = 1;
+diagRadio = 1;
+diagHit = 1;
+
+#include "\z\addons\dayz_code\system\mission\description.hpp"
